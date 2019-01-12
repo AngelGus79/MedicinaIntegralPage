@@ -1,0 +1,47 @@
+/* 
+
+#80a1c1
+#dee7e7
+#395780
+#9d5c63
+#c4e4dc
+*/
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+/* begining with Header */
+header
+{
+background: url(images/working.jpg) fixed;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+.vertical-center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header #title{
+    text-align: center;
+    color: whitesmoke;
+}
+
+header a{
+    border: solid 3px #395780;
+    text-align: center;
+    width:200px;
+    border-radius: 30px;
+    padding:5px;
+    margin: 0 auto 0 auto;
+    color:#395780;
+}
+/* finishing header */
