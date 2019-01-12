@@ -44,4 +44,19 @@ header a{
     margin: 0 auto 0 auto;
     color:#395780;
 }
+
+
+header a:hover{
+text-decoration: none;
+background-color: whitesmoke;
+   }
+
+
+.under-line{
+    border-top: 3px solid #395780;
+    width:300px;
+    margin: 0px auto 20px auto;
+
+}
+
 /* finishing header */
